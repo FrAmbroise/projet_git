@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+body{
+    background: linear-gradient(45deg, rgb(255,120,80), rgb(130,200,75), rgb(200,2,255),rgb(255,255,0));
+    background-repeat: round;
+}
+nav{
+    display: flex;
+    background-color: red;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.images_histoire{
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.imghist{
+    max-width: 33%;
+    height: 300px;
+}
